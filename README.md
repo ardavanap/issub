@@ -11,16 +11,23 @@ ip is resolved and server respond in anyway, it will print it as stdout and is a
 
 -w
 > Path of wordlist of possible subdomain names.
+
 -d
-: Domain, e.g: google.com
+> Domain, e.g: google.com
+
 -delay
-> Delay in milisecond,between each request. Default is 200 
+> Delay in milisecond,between each request. Default is 200
+
 -https
 > Request on https protocol. https is already default
+
 -http
 > Request on http protocol.
+
 -http-and-https
 > Request on both http and https protocols.
+
 -o
 > Output file destination.
+
 ---
